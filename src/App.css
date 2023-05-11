@@ -1,0 +1,38 @@
+.social li a img{
+    width: 70%;
+    object-fit: cover;
+    margin: auto;
+}
+
+.social li{
+    margin: auto;;
+}
+
+.events div{
+    width: 100%;
+}
+
+.image{
+    width: 90%;
+    margin: auto;
+}
+
+.image img{
+    object-fit: contain;
+}
+
+@media only screen and (max-width: 600px) {
+   .events div{
+        max-width: 100%;
+        min-width: 100%;
+        margin-bottom: 20px;
+        
+   }
+
+   .events{
+    padding: 30px;
+    margin: 0px !important;
+   }
+  }
+
+  

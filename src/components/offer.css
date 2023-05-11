@@ -1,0 +1,21 @@
+.sun {
+    color:black ;
+    background:  rgba(255, 255, 255, 0.762);
+    position: absolute;
+    border-radius: 50px ;
+  }
+  .sunshine {
+    animation: sunshines 2s infinite;
+  }
+  @keyframes sunshines {
+    0% {
+      transform: scale(1);
+      opacity: 0.6;
+    }
+    100% {
+      transform: scale(1.4);
+      opacity: 0;
+    }
+  }
+
+  
