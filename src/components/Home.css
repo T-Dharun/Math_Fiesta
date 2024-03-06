@@ -1,0 +1,46 @@
+.home{
+    position: relative;
+    top: 0;
+    z-index: 1;
+    height: 100vh;
+    width: 100hw;
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.256);
+}
+.home .home-image{
+    width: 5em;
+    padding-bottom: 3em;
+}
+.home-page{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
+.home img{
+    max-width: 100%;
+}
+.home section{
+    font-weight: 700;
+    font-size: 1.5em;
+    padding:1em;
+    line-height: 2em;
+}
+button.Register{
+    padding: 1em 3em;
+    background-color: var(--ternary);
+    font-weight: 800;
+    font-size: 1em;
+    box-sizing: border-box;
+    border: 1px solid aqua;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+.Register:hover{
+    background-color: black;
+    border: 1px solid var(--primary);
+    color: var(--secodary);
+
+}

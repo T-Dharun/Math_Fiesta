@@ -1,68 +1,62 @@
-import React, { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import logo from "./../assets/logo.png";
+import './Navbar.css';
+function Navbar(){
+    const [nav, setNav] = useState(false);
 
-const NavBar = () => {
-  const [nav, setNav] = useState(false);
-
-  const handleNav = () => {
-    setNav(!nav);
-  };
-  return (
-    <header className="absolute w-screen shadow-lg bg-white-900 z-50 pt-2 sm:p-0">
-      <div className="flex justify-evenly  overflow-hidden">
-        <div className="text-white flex justify-between items-center w-4/5 max-w-[1240px] ">
-          <Link to="/">
-            <h1 className="w-full text-3xl font-bold "> Math Fiesta </h1>
-          </Link>
-          <ul className="hidden md:flex">
-            <li className="p-4">
-              <Link to="/">Home</Link>
-            </li>
-            <li className="p-4">
-              <Link to="/events">Events</Link>
-            </li>
-            <li className="p-4">
-              <Link to="/about">About</Link>
-            </li>
-          </ul>
-          <div onClick={handleNav} className="block md:hidden">
-            {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
-          </div>
-          <div
-            className={
-              nav
-                ? "z-10 fixed left-0 top-0 h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500"
-                : "fixed left-[-100%]"
-            }
-          >
-            <h1 className="w-full text-3xl font-bold m-4">
-              {" "}
-              Math Fiesta 2K23{" "}
-            </h1>
-            <ul className="uppercase p-4">
-              <li className="p-4 border-b border-gray-600">
-                <Link to="/">Home</Link>
-              </li>
-              <li className="p-4 border-b border-gray-600">
-                <Link to="/events">Event</Link>
-              </li>
-              <li className="p-4 border-b border-gray-600">
-                <Link to="/about">About</Link>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <img
-          className="mr-5 hidden sm:block "
-          alt="club logo"
-          style={{ width: "calc(100%*0.09)" }}
-          src={logo}
-        ></img>
-      </div>
-    </header>
-  );
-};
-
-export default NavBar;
+    const handleNav = () => {
+      setNav(!nav);
+      const a=document.querySelector('body');
+      if(!nav){
+        a.classList.add('setBlur');
+      }
+      else{
+        a.classList.remove('setBlur');
+      }
+    };
+    function setNavRest(){
+        const a=document.querySelector('.navbar-small');
+        a.classList.add('navbar-small-reactive');
+ 
+    }
+    return(
+        <>
+            <nav className="nav">
+            <header className="navbar">
+                <div className="navbar-large">
+                    <h2>MathFiesta</h2>
+                    <ul className="navbar-contents">
+                        <Link to="/" className="navbar-link">
+                        <li>Home</li>
+                        </Link>
+                        <Link to="/events" className="navbar-link">
+                        <li>Events</li>
+                        </Link>
+                        <Link to="/about" className="navbar-link">
+                        <li>About</li>
+                        </Link>
+                    </ul>
+                </div>
+                <div onClick={handleNav} className="navbar-button">
+                    {nav?<AiOutlineClose size={30}/>:<AiOutlineMenu size={30}/>}
+                </div>
+                <div className={(nav)?"navbar-small navbar-small-active":"navbar-small navbar-small-reactive"}>
+                    <ul>
+                        <Link className="navbar-link" to="/">
+                        <li onClick={setNavRest}>Home</li>
+                        </Link>
+                        <Link className="navbar-link" to="/events">
+                        <li onClick={setNavRest}>Events</li>
+                        </Link>
+                        <Link to="/about" className="navbar-link">
+                        <li onClick={setNavRest}>About</li>
+                        </Link>
+                    </ul>
+                </div>
+            </header>
+            </nav>
+        </>
+    );
+}
+export default Navbar;
