@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/Math_Fiesta/static/css/main.26b06f19.css",
+    "main.js": "/Math_Fiesta/static/js/main.07464827.js",
+    "static/media/pic1.JPG": "/Math_Fiesta/static/media/pic1.5e16af1b2efdae41c1e3.JPG",
+    "static/media/pic4.JPG": "/Math_Fiesta/static/media/pic4.4e6af710b1cca691e46a.JPG",
+    "static/media/pic2.JPG": "/Math_Fiesta/static/media/pic2.08e88ccf34fa02602890.JPG",
+    "static/media/pic3.JPG": "/Math_Fiesta/static/media/pic3.26be8016c6fc65e6dea2.JPG",
+    "static/media/SGS DESIGNS 3.png": "/Math_Fiesta/static/media/SGS DESIGNS 3.19122d84af739aa17966.png",
+    "static/media/posterf.jpg": "/Math_Fiesta/static/media/posterf.49329e8699b7d46b57eb.jpg",
+    "static/media/tamil.jpeg": "/Math_Fiesta/static/media/tamil.a78cc0143b7dc5a485ef.jpeg",
+    "static/media/cheesyy1.png": "/Math_Fiesta/static/media/cheesyy1.1311cdee6ab70df75773.png",
+    "static/media/horcrux.png": "/Math_Fiesta/static/media/horcrux.4abbdcc6c5b19e9755ab.png",
+    "static/media/pranesh.jpeg": "/Math_Fiesta/static/media/pranesh.2b77fa9cd582b2106883.jpeg",
+    "static/media/gears.jpg": "/Math_Fiesta/static/media/gears.93e3a62d30ad8e88480b.jpg",
+    "static/media/mehan.jpg": "/Math_Fiesta/static/media/mehan.f57fe9c845414c08e940.jpg",
+    "static/media/Untitled.jpg": "/Math_Fiesta/static/media/Untitled.2074bcb065e558b68943.jpg",
+    "static/media/trea.jpg": "/Math_Fiesta/static/media/trea.d60e3d82ed4c97812737.jpg",
+    "static/media/quiz.jpg": "/Math_Fiesta/static/media/quiz.a63a17aa42a8e5a43ac0.jpg",
+    "static/media/nishanth.jpeg": "/Math_Fiesta/static/media/nishanth.6f0799b3bcbc544b2bc6.jpeg",
+    "static/media/priya.jpeg": "/Math_Fiesta/static/media/priya.9e8e977d61c0272a086f.jpeg",
+    "static/media/gk.jpeg": "/Math_Fiesta/static/media/gk.9468f14dc595d42f8c77.jpeg",
+    "static/media/rang.jpeg": "/Math_Fiesta/static/media/rang.1fb3e407e397756218c1.jpeg",
+    "static/media/instagram.png": "/Math_Fiesta/static/media/instagram.f5ef3733532877aa232f.png",
+    "static/media/vg.jpeg": "/Math_Fiesta/static/media/vg.c75eeecd58c1b4350261.jpeg",
+    "static/media/dharshan.jpeg": "/Math_Fiesta/static/media/dharshan.0cdecc178b33384e3b00.jpeg",
+    "static/media/paper.jpg": "/Math_Fiesta/static/media/paper.b609af22cdabb97877db.jpg",
+    "static/media/whatsapp.png": "/Math_Fiesta/static/media/whatsapp.02a723eae4fa9f261231.png",
+    "static/media/sentin.jpg": "/Math_Fiesta/static/media/sentin.974ea78015cb49866818.jpg",
+    "index.html": "/Math_Fiesta/index.html",
+    "main.26b06f19.css.map": "/Math_Fiesta/static/css/main.26b06f19.css.map",
+    "main.07464827.js.map": "/Math_Fiesta/static/js/main.07464827.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.26b06f19.css",
+    "static/js/main.07464827.js"
+  ]
+}
