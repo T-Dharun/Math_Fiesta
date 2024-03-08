@@ -28,6 +28,11 @@
     padding:1em;
     line-height: 2em;
 }
+button.Register:hover{
+    background:var(--gradient);
+    border:none;
+    color: black;
+}
 button.Register{
     padding: 1em 3em;
     background-color: var(--ternary);

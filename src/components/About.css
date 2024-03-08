@@ -5,6 +5,9 @@
     display: block;
     padding-top: 3em;
 }
+.about img{
+    height: 12em;
+}
 .about h1{
     margin:0;
     text-align: center;

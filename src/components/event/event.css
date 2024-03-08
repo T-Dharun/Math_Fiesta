@@ -27,23 +27,25 @@
 .event-card {
     width: 400px;
     background: linear-gradient(45deg,rgba(49, 49, 255, 0.5),rgb(142,218,248,0.5));
-    border: 1px solid #e5e5e5;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
+    overflow-y: visible;
     transition: transform 0.3s, box-shadow 0.3s;
     margin-bottom: 40px;
     margin-right: 30px;
-    padding:5px;
+    font-weight: lighter;
+    padding:0.5em;
+    max-height: 50em;
     display: flex;
     flex-direction: column;
   }
 
   .event-card:hover {
     transform: scale(1.1);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   }
 
+  .event-card li{
+    padding: 5px;
+  }
   .event-image {
     height: 150px;
     width: 100%;
@@ -80,7 +82,8 @@
     display: flex;
     flex-direction: column;
     padding: 8px 15px;
-    margin-bottom:10px;
+    margin-top: 1em;
+    margin-bottom:1em;
     margin-left:auto;
     margin-right: auto;
     font-size: 22px;
@@ -95,14 +98,15 @@
   }
 
   .register-button:hover {
-    background-color:aqua;
+    background: var(--gradient);
     color: black;
   }
   .register-button:hover a{
     color: black;
   }
   .event-card:hover{
-    box-shadow: 1px 1px 50px aqua;
+    box-shadow: 0px 0px 40px rgb(0, 145, 255);
+    border:1px solid aqua;
   }
   @media screen and (max-width: 768px) {
     .event-card {
@@ -114,5 +118,7 @@
     }
     .event-topic{
       font-size: 2.5em;
+      padding: 1.5em 0em;
+      cursor: pointer;
     }
   }
