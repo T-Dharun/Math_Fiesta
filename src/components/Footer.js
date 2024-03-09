@@ -22,7 +22,7 @@ const Footer = () => {
                 target={"_blank"}
               >
                 <li className="icon">
-                    <img src={whatsapp} className="icon-effect"/>
+                  <img src={whatsapp} className="icon-effect" />
                 </li>
               </a>
             </ul>
@@ -33,7 +33,7 @@ const Footer = () => {
                 target={"_blank"}
               >
                 <li className="icon">
-                <img src={instagram} className="icon-effect"/>
+                  <img src={instagram} className="icon-effect" />
                 </li>
               </a>
             </ul>
@@ -62,7 +62,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <footer>
+      <center>
         <div className="social-media-team">
           <p className="team-title">
             <center className="team-center cr">Social Media Team</center>
@@ -74,12 +74,20 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={img4} alt="Media Partner" className="social-media-icon"/>
+                <img
+                  src={img4}
+                  alt="Media Partner"
+                  className="social-media-icon"
+                />
               </a>
             </li>
             <li>
               <a href="" target="_blank" rel="noopener noreferrer">
-                <img src={img3} alt="Media Partner" className="social-media-icon"/>
+                <img
+                  src={img3}
+                  alt="Media Partner"
+                  className="social-media-icon"
+                />
               </a>
             </li>
             <li>
@@ -88,26 +96,42 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={img2} alt="Media Partner" className="social-media-icon"/>
+                <img
+                  src={img2}
+                  alt="Media Partner"
+                  className="social-media-icon"
+                />
               </a>
             </li>
             <li>
               <a href="" target="_blank" rel="noopener noreferrer">
-                <img src={img1} alt="Media Partner" className="social-media-icon"/>
+                <img
+                  src={img1}
+                  alt="Media Partner"
+                  className="social-media-icon"
+                />
               </a>
             </li>
           </ul>
         </div>
-      </footer>
+      </center>
       <div className="footer-bottom">
         <hr />
         <div className="footer-developer">
           <p>Developed By</p>{" "}
-          <a href="https://www.linkedin.com/in/-satheesh-k/" className="underline underline-offset-2" target={"_blank"}>
+          <a
+            href="https://www.linkedin.com/in/-satheesh-k/"
+            className="underline underline-offset-2"
+            target={"_blank"}
+          >
             SATHEESH K&nbsp;
           </a>
           &
-          <a href="https://www.linkedin.com/in/dharun-t/" className="underline underline-offset-2"target={"_blank"}>
+          <a
+            href="https://www.linkedin.com/in/dharun-t/"
+            className="underline underline-offset-2"
+            target={"_blank"}
+          >
             &nbsp;DHARUN T
           </a>
         </div>
