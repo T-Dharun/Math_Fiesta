@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Math_Fiesta/static/css/main.73350a91.css",
-    "main.js": "/Math_Fiesta/static/js/main.c29d63fe.js",
+    "main.js": "/Math_Fiesta/static/js/main.3c878e6d.js",
     "static/media/pic1.JPG": "/Math_Fiesta/static/media/pic1.5e16af1b2efdae41c1e3.JPG",
     "static/media/pic4.JPG": "/Math_Fiesta/static/media/pic4.4e6af710b1cca691e46a.JPG",
     "static/media/pic2.JPG": "/Math_Fiesta/static/media/pic2.08e88ccf34fa02602890.JPG",
@@ -31,10 +31,10 @@
     "static/media/sentin.jpg": "/Math_Fiesta/static/media/sentin.974ea78015cb49866818.jpg",
     "index.html": "/Math_Fiesta/index.html",
     "main.73350a91.css.map": "/Math_Fiesta/static/css/main.73350a91.css.map",
-    "main.c29d63fe.js.map": "/Math_Fiesta/static/js/main.c29d63fe.js.map"
+    "main.3c878e6d.js.map": "/Math_Fiesta/static/js/main.3c878e6d.js.map"
   },
   "entrypoints": [
     "static/css/main.73350a91.css",
-    "static/js/main.c29d63fe.js"
+    "static/js/main.3c878e6d.js"
   ]
 }
