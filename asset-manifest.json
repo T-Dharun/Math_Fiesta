@@ -1,12 +1,14 @@
 {
   "files": {
-    "main.css": "/Math_Fiesta/static/css/main.15196be8.css",
-    "main.js": "/Math_Fiesta/static/js/main.4961c104.js",
+    "main.css": "/Math_Fiesta/static/css/main.73350a91.css",
+    "main.js": "/Math_Fiesta/static/js/main.c29d63fe.js",
     "static/media/pic1.JPG": "/Math_Fiesta/static/media/pic1.5e16af1b2efdae41c1e3.JPG",
     "static/media/pic4.JPG": "/Math_Fiesta/static/media/pic4.4e6af710b1cca691e46a.JPG",
     "static/media/pic2.JPG": "/Math_Fiesta/static/media/pic2.08e88ccf34fa02602890.JPG",
     "static/media/pic3.JPG": "/Math_Fiesta/static/media/pic3.26be8016c6fc65e6dea2.JPG",
+    "static/media/Math.gif": "/Math_Fiesta/static/media/Math.52f9ba75fd1f885a2c0a.gif",
     "static/media/SGS DESIGNS 3.png": "/Math_Fiesta/static/media/SGS DESIGNS 3.19122d84af739aa17966.png",
+    "static/media/trophy.gif": "/Math_Fiesta/static/media/trophy.b8248bd050d95701f195.gif",
     "static/media/posterf.jpg": "/Math_Fiesta/static/media/posterf.49329e8699b7d46b57eb.jpg",
     "static/media/tamil.jpeg": "/Math_Fiesta/static/media/tamil.a78cc0143b7dc5a485ef.jpeg",
     "static/media/cheesyy1.png": "/Math_Fiesta/static/media/cheesyy1.1311cdee6ab70df75773.png",
@@ -28,11 +30,11 @@
     "static/media/whatsapp.png": "/Math_Fiesta/static/media/whatsapp.02a723eae4fa9f261231.png",
     "static/media/sentin.jpg": "/Math_Fiesta/static/media/sentin.974ea78015cb49866818.jpg",
     "index.html": "/Math_Fiesta/index.html",
-    "main.15196be8.css.map": "/Math_Fiesta/static/css/main.15196be8.css.map",
-    "main.4961c104.js.map": "/Math_Fiesta/static/js/main.4961c104.js.map"
+    "main.73350a91.css.map": "/Math_Fiesta/static/css/main.73350a91.css.map",
+    "main.c29d63fe.js.map": "/Math_Fiesta/static/js/main.c29d63fe.js.map"
   },
   "entrypoints": [
-    "static/css/main.15196be8.css",
-    "static/js/main.4961c104.js"
+    "static/css/main.73350a91.css",
+    "static/js/main.c29d63fe.js"
   ]
 }
