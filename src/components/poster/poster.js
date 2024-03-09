@@ -1,7 +1,7 @@
 import React from "react";
 import './poster.css';
 import poster from '../../assets/posterf.jpg';
-import cash from '../../assets/Red and Black Animated Spiky Pattern Big Sale Instagram Post (1).gif'
+import cash from '../../assets/Red.gif'
 function Poster(){
     return(
         <div className="poster-container">
