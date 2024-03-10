@@ -1,9 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import img1 from "../assets/cheesyy1.png";
-import img2 from "../assets/sentin.jpg";
-import img3 from "../assets/SGS DESIGNS 3.png";
-import img4 from "../assets/horcrux.png";
+import img1 from "../assets/KEC_SYNDICATE.png";
+import img2 from "../assets/Kec_Studens_Page.jpg";
+
 import whatsapp from "../assets/whatsapp.png";
 import instagram from "../assets/instagram.png";
 import "./footer.css"; // Import the corresponding CSS file
@@ -75,7 +74,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
               >
                 <img
-                  src={img4}
+                  src={img1}
                   alt="Media Partner"
                   className="social-media-icon"
                 />
@@ -83,30 +82,8 @@ const Footer = () => {
             </li>
             <li>
               <a href="" target="_blank" rel="noopener noreferrer">
-                <img
-                  src={img3}
-                  alt="Media Partner"
-                  className="social-media-icon"
-                />
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://instagram.com/kec_sentinels?igshid=YmMyMTA2M2Y="
-                target="_blank"
-                rel="noopener noreferrer"
-              >
                 <img
                   src={img2}
-                  alt="Media Partner"
-                  className="social-media-icon"
-                />
-              </a>
-            </li>
-            <li>
-              <a href="" target="_blank" rel="noopener noreferrer">
-                <img
-                  src={img1}
                   alt="Media Partner"
                   className="social-media-icon"
                 />

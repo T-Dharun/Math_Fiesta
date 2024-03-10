@@ -5,7 +5,7 @@ import img3 from "../../assets/gears.jpg";
 import img4 from "../../assets/quiz.jpg";
 import img6 from "../../assets/trea.jpg";
 import img7 from "../../assets/mehan.jpg";
-import img8 from "../../assets/rang.jpeg";
+import img8 from "../../assets/idea.jpg";
 import { useState, useRef, useEffect } from "react";
 import Poster from "../poster/poster";
 const EventCard = ({ event }) => {
