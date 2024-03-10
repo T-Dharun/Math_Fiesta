@@ -1,11 +1,11 @@
 import React from "react";
-import { Link } from "react-router-dom";
+
 import img1 from "../assets/KEC_SYNDICATE.png";
-import img2 from "../assets/Kec_Studens_Page.jpg";
+import img2 from "../assets/Kec_Studens_Page.png";
 
 import whatsapp from "../assets/whatsapp.png";
 import instagram from "../assets/instagram.png";
-import "./footer.css"; // Import the corresponding CSS file
+import "./footer.css";
 
 const Footer = () => {
   return (
@@ -16,12 +16,12 @@ const Footer = () => {
           <div className="social-icons">
             <ul>
               <a
-                href="https://chat.whatsapp.com/BQCgQBAIHdHIxM4yW65jtm"
+                href="https://chat.whatsapp.com/GIrcSl34axX2a5elNtXDN6"
                 rel="noopener noreferrer "
                 target={"_blank"}
               >
                 <li className="icon">
-                  <img src={whatsapp} className="icon-effect" />
+                  <img src={whatsapp} className="icon-effect" alt="whatsapp" />
                 </li>
               </a>
             </ul>
@@ -32,7 +32,7 @@ const Footer = () => {
                 target={"_blank"}
               >
                 <li className="icon">
-                  <img src={instagram} className="icon-effect" />
+                  <img src={instagram} className="icon-effect" alt="insta" />
                 </li>
               </a>
             </ul>
@@ -51,12 +51,12 @@ const Footer = () => {
           <div className="student-coordinator">
             <p className="coordinator-title">Student Co-ordinator</p>
             <div className="coordinator-details">
-              <p>K.A. THAMIZHINI</p>
-              <p>9994061719</p>
-              <p>S. VISHNUGILANAND</p>
-              <p>9994231304</p>
-              <p>S. PRANESH</p>
-              <p>9659222849</p>
+              <p>ATHISH S K</p>
+              <p>9790010353</p>
+              <p>BOMMISRILEKKHAA G</p>
+              <p>6380316750</p>
+              <p>POONTAMILSELVAN P</p>
+              <p>9361036499</p>
             </div>
           </div>
         </div>
@@ -69,23 +69,27 @@ const Footer = () => {
           <ul className="social-media-icons">
             <li>
               <a
-                href="https://instagram.com/horcrux._.creations?igshid=YmMyMTA2M2Y="
+                href="https://www.instagram.com/kec_syndicate?igsh=MXBlbWI3em0wNnFmZQ=="
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <img
                   src={img1}
                   alt="Media Partner"
-                  className="social-media-icon"
+                  className="social-media-icon syndicate"
                 />
               </a>
             </li>
             <li>
-              <a href="" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://www.instagram.com/kec_students_page?igsh=czYzMjAxc3NtZmYz"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img
                   src={img2}
                   alt="Media Partner"
-                  className="social-media-icon"
+                  className="social-media-icon kec-student"
                 />
               </a>
             </li>
@@ -100,6 +104,7 @@ const Footer = () => {
             href="https://www.linkedin.com/in/-satheesh-k/"
             className="underline underline-offset-2"
             target={"_blank"}
+            rel="noreferrer"
           >
             SATHEESH K&nbsp;
           </a>
@@ -108,6 +113,7 @@ const Footer = () => {
             href="https://www.linkedin.com/in/dharun-t/"
             className="underline underline-offset-2"
             target={"_blank"}
+            rel="noreferrer"
           >
             &nbsp;DHARUN T
           </a>

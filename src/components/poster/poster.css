@@ -3,9 +3,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 100px 300px;
+  padding: 0px 300px 0px 300px;
 }
-.prize{
+.prize {
   position: relative;
   background: rgba(0, 0, 255, 0);
   height: 5em;
@@ -20,21 +20,30 @@
   height: 100%;
   object-fit: contain;
 }
-@media screen and (min-width:768px){
-  .prize{
-    top:1em;
-    right:-50%;
+.marquee-text {
+  font-size: 32px;
+  color: aqua;
+  cursor: pointer;
+}
+.marquee-text:hover {
+  font-size: 32px;
+  color: rgba(0, 255, 255, 0.479);
+}
+@media screen and (min-width: 768px) {
+  .prize {
+    top: 1em;
+    right: -50%;
   }
 }
 @media only screen and (max-width: 768px) {
   /* Adjust styles for screens with a maximum width of 768 pixels (typical mobile devices) */
   .poster-container {
-      padding: 50px; /* Adjust padding for better mobile layout */
+    padding: 50px; /* Adjust padding for better mobile layout */
   }
 
   .poster-image {
-      /* You can adjust the width and height as needed for mobile view */
-      width: 100%;
-      height: auto;
+    /* You can adjust the width and height as needed for mobile view */
+    width: 100%;
+    height: auto;
   }
 }

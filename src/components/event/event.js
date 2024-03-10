@@ -80,7 +80,7 @@ const eventsData = [
     title: "Oratysta",
     image: img2,
     description: [
-      "A team of maximum 3 members can participate.",
+      "A team of maximum 2 members can participate.",
       "Teams will be short-listed based on abstract.",
       "5 minutes will be provided for presentation and 2 minutes for queries.",
       "Abstract submission last date - 07.04.2024",
