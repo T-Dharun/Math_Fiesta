@@ -53,61 +53,61 @@ function Gallery() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src={img1} />
+          <img src={img1} alt="img" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={img2} />
+          <img src={img2} alt="img" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={img3} />
+          <img src={img3} alt="img" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={img4} />
+          <img src={img4} alt="img" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={img5} />
+          <img src={img5} alt="img" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={img6} />
+          <img src={img6} alt="img" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={img7} />
+          <img src={img7} alt="img" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={img8} />
+          <img src={img8} alt="img" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={img9} />
+          <img src={img9} alt="img" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={img10} />
+          <img src={img10} alt="img" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={img11} />
+          <img src={img11} alt="img" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={img12} />
+          <img src={img12} alt="img" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={img13} />
+          <img src={img13} alt="img" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={img14} />
+          <img src={img14} alt="img" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={img15} />
+          <img src={img15} alt="img" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={img16} />
+          <img src={img16} alt="img" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={img17} />
+          <img src={img17} alt="img" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={img18} />
+          <img src={img18} alt="img" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={img19} />
+          <img src={img19} alt="img" />
         </SwiperSlide>
       </Swiper>
     </div>
