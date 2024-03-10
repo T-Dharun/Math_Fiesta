@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Math_Fiesta/static/css/main.b0f64253.css",
-    "main.js": "/Math_Fiesta/static/js/main.9fd31d77.js",
+    "main.css": "/Math_Fiesta/static/css/main.47699f4e.css",
+    "main.js": "/Math_Fiesta/static/js/main.27718c16.js",
     "static/media/img5.jpg": "/Math_Fiesta/static/media/img5.6384681460f64bcdd06b.jpg",
     "static/media/img8.jpg": "/Math_Fiesta/static/media/img8.b4339049c72b83cc08e9.jpg",
     "static/media/img7.jpg": "/Math_Fiesta/static/media/img7.bfd15915de8b3058fc4b.jpg",
@@ -28,11 +28,11 @@
     "static/media/img19.JPG": "/Math_Fiesta/static/media/img19.f83cafcc691d4dbfd09d.JPG",
     "static/media/img13.JPG": "/Math_Fiesta/static/media/img13.510682f79c8a1d6f66e9.JPG",
     "static/media/trophy.gif": "/Math_Fiesta/static/media/trophy.b8248bd050d95701f195.gif",
-    "static/media/Bommisrilekkha.jpg": "/Math_Fiesta/static/media/Bommisrilekkha.3fd5ab9433031058aa2b.jpg",
     "static/media/Om prakash_.jpg": "/Math_Fiesta/static/media/Om prakash_.db937a02c414284be032.jpg",
     "static/media/Rahul_.jpg": "/Math_Fiesta/static/media/Rahul_.145ca4acb12c8c41767c.jpg",
+    "static/media/Kec_Studens_Page.png": "/Math_Fiesta/static/media/Kec_Studens_Page.b9da3f0f52734bd0780d.png",
+    "static/media/Bommisrilekkha.jpg": "/Math_Fiesta/static/media/Bommisrilekkha.be50485e8931cc8d86fb.jpg",
     "static/media/posterf.jpg": "/Math_Fiesta/static/media/posterf.49329e8699b7d46b57eb.jpg",
-    "static/media/Kec_Studens_Page.jpg": "/Math_Fiesta/static/media/Kec_Studens_Page.77e9a341adac3a5baac4.jpg",
     "static/media/gears.jpg": "/Math_Fiesta/static/media/gears.93e3a62d30ad8e88480b.jpg",
     "static/media/mehan.jpg": "/Math_Fiesta/static/media/mehan.f57fe9c845414c08e940.jpg",
     "static/media/Parvathavarthini.jpg": "/Math_Fiesta/static/media/Parvathavarthini.f3057cb25236d7be632e.jpg",
@@ -47,11 +47,11 @@
     "static/media/paper.jpg": "/Math_Fiesta/static/media/paper.b609af22cdabb97877db.jpg",
     "static/media/whatsapp.png": "/Math_Fiesta/static/media/whatsapp.02a723eae4fa9f261231.png",
     "index.html": "/Math_Fiesta/index.html",
-    "main.b0f64253.css.map": "/Math_Fiesta/static/css/main.b0f64253.css.map",
-    "main.9fd31d77.js.map": "/Math_Fiesta/static/js/main.9fd31d77.js.map"
+    "main.47699f4e.css.map": "/Math_Fiesta/static/css/main.47699f4e.css.map",
+    "main.27718c16.js.map": "/Math_Fiesta/static/js/main.27718c16.js.map"
   },
   "entrypoints": [
-    "static/css/main.b0f64253.css",
-    "static/js/main.9fd31d77.js"
+    "static/css/main.47699f4e.css",
+    "static/js/main.27718c16.js"
   ]
 }
