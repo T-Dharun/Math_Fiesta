@@ -1,6 +1,6 @@
 import React from "react";
 import "./poster.css";
-import poster from "../../assets/posterf.jpg";
+import poster from "../../assets/posterf.png";
 import cash from "../../assets/Red.gif";
 function Poster() {
   return (
