@@ -130,7 +130,7 @@ const eventsData1 = [
   },
   {
     id: 2,
-    title: "Heno desta",
+    title: "Colorista",
     image: img7,
     description: [
       "A team should contain two members.",
